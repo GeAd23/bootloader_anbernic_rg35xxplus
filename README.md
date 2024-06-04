@@ -25,11 +25,11 @@ To create a TF2 bootable MicroSD card:
 4. Select your **MicroSD card** in the **Device** dropdown
 5. Click the **SELECT button** and select your extracted stock OS image
 6. Click the **START button** to burn your MicroSD card
-To add Garlic OS to TF1 bootable MicroSD card:
-7. Create a **boot2** folder on TF1
-8. Create a **boot** folder in the **boot2** folder on TF1 
-9. Copy an OS **init** script of choice into this new **boot** folder (ex. [GarlicOS](https://github.com/GarlicOS/init_template/raw/main/init))
-10. Extract an **armhf** OS **rootfs** file of choice into this new **boot** folder with [7zip](https://www.7-zip.org/download.html) (ex. [GarlicOS](https://github.com/GarlicOS/buildroot/releases/latest))
+\nTo add Garlic OS to TF1 bootable MicroSD card:
+8. Create a **boot2** folder on TF1
+9. Create a **boot** folder in the **boot2** folder on TF1 
+10. Copy an OS **init** script of choice into this new **boot** folder (ex. [GarlicOS](https://github.com/GarlicOS/init_template/raw/main/init))
+11. Extract an **armhf** OS **rootfs** file of choice into this new **boot** folder with [7zip](https://www.7-zip.org/download.html) (ex. [GarlicOS](https://github.com/GarlicOS/buildroot/releases/latest))
 
 # Boot order
 The bootloader will boot the first valid operating system it finds in the following order:
