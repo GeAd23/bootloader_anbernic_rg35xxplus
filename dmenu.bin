@@ -100,8 +100,10 @@ if [ -f /$OS_1 ]
 then
 	os_tf2
 elif [ -f /$OS_2 ]
+then
 	os_stock
 elif [ -f /$OS_3 ]
+then
 	os_tf1
 else
 	os_tf1
